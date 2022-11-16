@@ -31,11 +31,6 @@ public class HomeFragment extends Fragment {
                 Navigation.findNavController(container).navigate(R.id.addpostFragmentaction));
 
 
-
-
-
-
-
         return binding.getRoot();
     }
 }
