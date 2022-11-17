@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639384229477",
+    "project_id": "ferotdeiferotnei",
+    "storage_bucket": "ferotdeiferotnei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639384229477:android:8c088360e9697d13d4988c",
+        "android_client_info": {
+          "package_name": "com.example.haranojishkhujepai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639384229477-808cpvvcv8oel2u10atp6c4keru5ea7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcBjt2dcIum2FDsJTgvr9YsXUFd-OEfuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639384229477-808cpvvcv8oel2u10atp6c4keru5ea7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
