@@ -3,6 +3,7 @@ package com.example.haranojishkhujepai.dataclass;
 public class PostData {
 
     private String id;
+    private String userId;
     private long timestamp;
 
     private String title;
@@ -14,10 +15,9 @@ public class PostData {
     public PostData() {
     }
 
-
-    public PostData(String id, long timestamp, String title, String description, String location, String phoneNumber, String imageUrl) {
+    public PostData(String id, String userId, long timestamp, String title, String description, String location, String phoneNumber, String imageUrl) {
         this.id = id;
-
+        this.userId = userId;
         this.timestamp = timestamp;
         this.title = title;
         this.description = description;
@@ -34,9 +34,13 @@ public class PostData {
         this.id = id;
     }
 
+    public String getUserId() {
+        return userId;
+    }
 
-
-
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public long getTimestamp() {
         return timestamp;
@@ -84,18 +88,5 @@ public class PostData {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
-    }
-
-    @Override
-    public String toString() {
-        return "PostData{" +
-                "id='" + id + '\'' +
-                ", timestamp=" + timestamp +
-                ", title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", location='" + location + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
-                '}';
     }
 }

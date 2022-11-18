@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harano Jinis Khuje Pai"
+            android:text="@string/harano_jinis_khuje_pai"
             android:textStyle="bold"
             android:layout_marginTop="1dp"
             android:textSize="36dp"
@@ -72,7 +72,7 @@
             android:background="@drawable/edit_text_round"
             android:layout_gravity="center"
             android:textColor="@color/black"
-            android:text="Login" />
+            android:text="@string/login" />
 
 
         <Button
