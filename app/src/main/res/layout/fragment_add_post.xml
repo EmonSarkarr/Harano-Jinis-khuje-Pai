@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/titleET"
                 android:gravity="center"
+                android:inputType="text"
                 android:hint="Write a Title">
 
             </EditText>
@@ -63,21 +64,22 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/location"
+                android:id="@+id/locationET"
                 android:gravity="center"
                 android:hint="Enter Your Location">
             </EditText>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/phoneNumber"
+                android:id="@+id/phoneNumberET"
                 android:gravity="center"
-                android:hint="Enter Your Contact Number ">
+                android:inputType="number"
+                android:hint="@string/enter_your_contact_number">
             </EditText>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/photo"
+                android:id="@+id/photoET"
                 android:gravity="center"
                 android:hint="@string/product_photo">
             </EditText>

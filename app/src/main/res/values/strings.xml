@@ -59,4 +59,5 @@
     <string name="start">Start</string>
     <string name="fetchdata">FetchData</string>
     <string name="signin">signin</string>
+    <string name="enter_your_contact_number">Enter Your Contact Number</string>
 </resources>
