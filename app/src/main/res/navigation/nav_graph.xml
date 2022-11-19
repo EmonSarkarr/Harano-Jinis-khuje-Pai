@@ -13,9 +13,6 @@
         <action
             android:id="@+id/addpostFragmentaction"
             app:destination="@id/addPostFragment" />
-        <action
-            android:id="@+id/loginAction"
-            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/addPostFragment"
@@ -26,7 +23,13 @@
         android:id="@+id/loginFragment"
         android:name="com.example.haranojishkhujepai.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/login_to_home_list_action"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.example.haranojishkhujepai.FirstFragment"
